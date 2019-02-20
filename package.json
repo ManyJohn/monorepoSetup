@@ -27,6 +27,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "lerna run build",
-    "start": "cd sandbox && npm start"
+    "start": "cd sandbox && npm start",
+    "install": "lerna bootstrap --concurrency=1"
   }
 }
