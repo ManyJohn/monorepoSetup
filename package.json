@@ -25,6 +25,10 @@
   "dependencies": {},
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build-otherapp":"cd packages/otherapp && npm run build",
+    "build":"npm run build-otherapp",
+    "start-sandbox":"cd sandbox && npm start",
+    "install-sandbox":"lerna bootstrap && cd sandbox && npm install"
   }
 }
